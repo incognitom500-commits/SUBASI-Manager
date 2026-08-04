@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ম্যানেজমেন্ট অ্যাপ</string>
+    <string name="management_system">ম্যানেজমেন্ট সিস্টেম</string>
+    <string name="home_nav">হোম (Home)</string>
+    <string name="coupon_nav">কুপন কোড (Coupon)</string>
+    <string name="tools_nav">টুলস (Tools)</string>
+    <string name="welcome_dashboard">স্বাগতম আপনার ড্যাশবোর্ডে</string>
+    <string name="dashboard_subtext">নিচের মেনু থেকে কুপন কোড অথবা টুলস অপশন ব্যবহার করুন।</string>
+    <string name="user_panel">ইউজার প্যানেল</string>
+    <string name="manager_panel">ম্যানেজার প্যানেল</string>
+    <string name="sales_accounting">হিসাব নিকাশ</string>
+    <string name="product_details">প্রোডাক্ট এর বিবরণ</string>
+    <string name="coupons">কুপন কোড</string>
+</resources>
