@@ -13,16 +13,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up JDK 8
+      - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: '8'
+          java-version: '17'
 
-      - name: Install Gradle & Generate Wrapper
+      - name: Install Gradle & Generate Compatible Wrapper
         run: |
           sudo apt-get update && sudo apt-get install -y gradle
-          gradle wrapper
+          gradle wrapper --gradle-version 7.5
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
